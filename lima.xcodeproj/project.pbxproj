@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9665852294E69BD0060C38C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9665851294E69BD0060C38C /* AppDelegate.swift */; };
+		F9665854294E69BD0060C38C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9665853294E69BD0060C38C /* ViewController.swift */; };
+		F9665856294E69BE0060C38C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9665855294E69BE0060C38C /* Assets.xcassets */; };
+		F9665859294E69BE0060C38C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9665857294E69BE0060C38C /* Main.storyboard */; };
+		F9665864294E69BE0060C38C /* limaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9665863294E69BE0060C38C /* limaTests.swift */; };
+		F966586E294E69BE0060C38C /* limaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F966586D294E69BE0060C38C /* limaUITests.swift */; };
+		F9665870294E69BE0060C38C /* limaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F966586F294E69BE0060C38C /* limaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9665860294E69BE0060C38C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9665846294E69BD0060C38C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F966584D294E69BD0060C38C;
+			remoteInfo = lima;
+		};
+		F966586A294E69BE0060C38C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9665846294E69BD0060C38C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F966584D294E69BD0060C38C;
+			remoteInfo = lima;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F966584E294E69BD0060C38C /* lima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lima.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9665851294E69BD0060C38C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9665853294E69BD0060C38C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9665855294E69BE0060C38C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9665858294E69BE0060C38C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F966585A294E69BE0060C38C /* lima.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = lima.entitlements; sourceTree = "<group>"; };
+		F966585F294E69BE0060C38C /* limaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = limaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9665863294E69BE0060C38C /* limaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = limaTests.swift; sourceTree = "<group>"; };
+		F9665869294E69BE0060C38C /* limaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = limaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F966586D294E69BE0060C38C /* limaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = limaUITests.swift; sourceTree = "<group>"; };
+		F966586F294E69BE0060C38C /* limaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = limaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F966584B294E69BD0060C38C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F966585C294E69BE0060C38C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9665866294E69BE0060C38C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9665845294E69BD0060C38C = {
+			isa = PBXGroup;
+			children = (
+				F9665850294E69BD0060C38C /* lima */,
+				F9665862294E69BE0060C38C /* limaTests */,
+				F966586C294E69BE0060C38C /* limaUITests */,
+				F966584F294E69BD0060C38C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F966584F294E69BD0060C38C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F966584E294E69BD0060C38C /* lima.app */,
+				F966585F294E69BE0060C38C /* limaTests.xctest */,
+				F9665869294E69BE0060C38C /* limaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9665850294E69BD0060C38C /* lima */ = {
+			isa = PBXGroup;
+			children = (
+				F9665851294E69BD0060C38C /* AppDelegate.swift */,
+				F9665853294E69BD0060C38C /* ViewController.swift */,
+				F9665855294E69BE0060C38C /* Assets.xcassets */,
+				F9665857294E69BE0060C38C /* Main.storyboard */,
+				F966585A294E69BE0060C38C /* lima.entitlements */,
+			);
+			path = lima;
+			sourceTree = "<group>";
+		};
+		F9665862294E69BE0060C38C /* limaTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9665863294E69BE0060C38C /* limaTests.swift */,
+			);
+			path = limaTests;
+			sourceTree = "<group>";
+		};
+		F966586C294E69BE0060C38C /* limaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F966586D294E69BE0060C38C /* limaUITests.swift */,
+				F966586F294E69BE0060C38C /* limaUITestsLaunchTests.swift */,
+			);
+			path = limaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F966584D294E69BD0060C38C /* lima */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9665873294E69BE0060C38C /* Build configuration list for PBXNativeTarget "lima" */;
+			buildPhases = (
+				F966584A294E69BD0060C38C /* Sources */,
+				F966584B294E69BD0060C38C /* Frameworks */,
+				F966584C294E69BD0060C38C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lima;
+			productName = lima;
+			productReference = F966584E294E69BD0060C38C /* lima.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F966585E294E69BE0060C38C /* limaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9665876294E69BE0060C38C /* Build configuration list for PBXNativeTarget "limaTests" */;
+			buildPhases = (
+				F966585B294E69BE0060C38C /* Sources */,
+				F966585C294E69BE0060C38C /* Frameworks */,
+				F966585D294E69BE0060C38C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9665861294E69BE0060C38C /* PBXTargetDependency */,
+			);
+			name = limaTests;
+			productName = limaTests;
+			productReference = F966585F294E69BE0060C38C /* limaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F9665868294E69BE0060C38C /* limaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9665879294E69BE0060C38C /* Build configuration list for PBXNativeTarget "limaUITests" */;
+			buildPhases = (
+				F9665865294E69BE0060C38C /* Sources */,
+				F9665866294E69BE0060C38C /* Frameworks */,
+				F9665867294E69BE0060C38C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F966586B294E69BE0060C38C /* PBXTargetDependency */,
+			);
+			name = limaUITests;
+			productName = limaUITests;
+			productReference = F9665869294E69BE0060C38C /* limaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9665846294E69BD0060C38C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F966584D294E69BD0060C38C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					F966585E294E69BE0060C38C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F966584D294E69BD0060C38C;
+					};
+					F9665868294E69BE0060C38C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F966584D294E69BD0060C38C;
+					};
+				};
+			};
+			buildConfigurationList = F9665849294E69BD0060C38C /* Build configuration list for PBXProject "lima" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9665845294E69BD0060C38C;
+			productRefGroup = F966584F294E69BD0060C38C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F966584D294E69BD0060C38C /* lima */,
+				F966585E294E69BE0060C38C /* limaTests */,
+				F9665868294E69BE0060C38C /* limaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F966584C294E69BD0060C38C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9665856294E69BE0060C38C /* Assets.xcassets in Resources */,
+				F9665859294E69BE0060C38C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F966585D294E69BE0060C38C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9665867294E69BE0060C38C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F966584A294E69BD0060C38C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9665854294E69BD0060C38C /* ViewController.swift in Sources */,
+				F9665852294E69BD0060C38C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F966585B294E69BE0060C38C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9665864294E69BE0060C38C /* limaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9665865294E69BE0060C38C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F966586E294E69BE0060C38C /* limaUITests.swift in Sources */,
+				F9665870294E69BE0060C38C /* limaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9665861294E69BE0060C38C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F966584D294E69BD0060C38C /* lima */;
+			targetProxy = F9665860294E69BE0060C38C /* PBXContainerItemProxy */;
+		};
+		F966586B294E69BE0060C38C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F966584D294E69BD0060C38C /* lima */;
+			targetProxy = F966586A294E69BE0060C38C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9665857294E69BE0060C38C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9665858294E69BE0060C38C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9665871294E69BE0060C38C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9665872294E69BE0060C38C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F9665874294E69BE0060C38C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = lima/lima.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ratik.colima-switcher.lima";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F9665875294E69BE0060C38C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = lima/lima.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ratik.colima-switcher.lima";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F9665877294E69BE0060C38C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ratik.colima-switcher.limaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lima.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/lima";
+			};
+			name = Debug;
+		};
+		F9665878294E69BE0060C38C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ratik.colima-switcher.limaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lima.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/lima";
+			};
+			name = Release;
+		};
+		F966587A294E69BE0060C38C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ratik.colima-switcher.limaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = lima;
+			};
+			name = Debug;
+		};
+		F966587B294E69BE0060C38C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ratik.colima-switcher.limaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = lima;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9665849294E69BD0060C38C /* Build configuration list for PBXProject "lima" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9665871294E69BE0060C38C /* Debug */,
+				F9665872294E69BE0060C38C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9665873294E69BE0060C38C /* Build configuration list for PBXNativeTarget "lima" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9665874294E69BE0060C38C /* Debug */,
+				F9665875294E69BE0060C38C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9665876294E69BE0060C38C /* Build configuration list for PBXNativeTarget "limaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9665877294E69BE0060C38C /* Debug */,
+				F9665878294E69BE0060C38C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9665879294E69BE0060C38C /* Build configuration list for PBXNativeTarget "limaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F966587A294E69BE0060C38C /* Debug */,
+				F966587B294E69BE0060C38C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9665846294E69BD0060C38C /* Project object */;
+}

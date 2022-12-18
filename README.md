@@ -10,7 +10,7 @@ Because sometimes it's a pain to have to type `colima start` and `colima stop` e
 
 ## How to use it?
 
-Download the latest release from the releases page
+Download the latest release from the [releases page](https://github.com/ratik/colima-switcher/releases)
 
 ## License
 
